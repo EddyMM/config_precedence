@@ -15,5 +15,5 @@ class ConfigOption(abc.ABC):
         pass
 
     @abc.abstractmethod
-    def has_key(self, key):
+    def has_config_key(self, key):
         pass

@@ -3,7 +3,7 @@ from config_precedence.config_option import ConfigOption
 
 class DictConfigMixin:
 
-    def has_key(self, key):
+    def has_config_key(self, key):
         return key in self.configs
 
     def get_config_by_key(self, key):
