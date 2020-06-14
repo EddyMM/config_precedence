@@ -13,7 +13,7 @@ setup(
     name="config_precedence",
     description="Define the order of precedence of a list of configuration options",
     long_description=long_description,
-    version="0.0.1",
+    version="1.0.0",
     packages=find_packages(src_dir),
     package_dir={'': src_dir},
     include_package_data=True,
