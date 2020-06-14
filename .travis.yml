@@ -12,7 +12,4 @@ install:
 script:
   - flake8 config_precedence
   - flake8 tests
-  - nosetests \
-      -sxv \
-      --with-coverage \
-      --cover-package=config_precedence
+  - nosetests -sxv --with-coverage --cover-package=config_precedence
